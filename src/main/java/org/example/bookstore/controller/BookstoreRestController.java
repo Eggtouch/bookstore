@@ -27,8 +27,10 @@ public class BookstoreRestController {
     }
 
     @GetMapping("/books/{id}")
-    public Book getBookById(@PathVariable Long id) {
-        return bookService.getBookById(id).orElse(null);
+    public ResponseEntity<BookResponse> getBookById(@PathVariable Long id) {
+        var book = bookService.getBookById(id);
+        return book.map(value -> ResponseEntity.ok(new BookResponse("Book with id " + id + " found", value)))
+                .orElseGet(() -> ResponseEntity.notFound().build());
     }
 
     @PostMapping("/books/new")
