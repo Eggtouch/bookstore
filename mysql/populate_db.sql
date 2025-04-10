@@ -1,0 +1,22 @@
+INSERT INTO t_books (vendor_code, title, publishing_year, brand, stock, price)
+VALUES
+    ('VC001', 'Wireless Headphones', 2023, 'SoundMaster', 50, 7999),
+    ('VC002', 'Smartphone X', 2023, 'TechGiant', 30, 59999),
+    ('VC003', 'Bluetooth Speaker', 2022, 'AudioPlus', 75, 2499),
+    ('VC004', 'Laptop Pro', 2023, 'CompTech', 25, 89999),
+    ('VC005', 'Fitness Tracker', 2022, 'FitLife', 100, 3499),
+    ('VC006', '4K Smart TV', 2023, 'VisionPlus', 15, 49999),
+    ('VC007', 'Mechanical Keyboard', 2021, 'KeyMaster', 60, 5999),
+    ('VC008', 'Gaming Mouse', 2023, 'GameGear', 45, 3999),
+    ('VC009', 'External SSD 1TB', 2023, 'StorageKing', 40, 8999),
+    ('VC010', 'Noise Cancelling Headphones', 2022, 'SoundMaster', 35, 12999),
+    ('VC011', 'Tablet Mini', 2023, 'TechGiant', 20, 29999),
+    ('VC012', 'Smart Watch', 2023, 'FitLife', 55, 14999),
+    ('VC013', 'Wireless Earbuds', 2023, 'AudioPlus', 80, 4999),
+    ('VC014', 'Desktop Monitor', 2022, 'VisionPlus', 30, 17999),
+    ('VC015', 'Portable Charger', 2021, 'PowerUp', 120, 1999),
+    ('VC016', 'Ergonomic Chair', 2023, 'ComfortPlus', 10, 14999),
+    ('VC017', 'USB-C Hub', 2022, 'ConnectTech', 65, 3499),
+    ('VC018', 'Action Camera', 2023, 'AdventureCam', 25, 24999),
+    ('VC019', 'Air Purifier', 2023, 'FreshAir', 15, 12999),
+    ('VC020', 'Smart Light Bulb', 2022, 'HomeTech', 90, 999);
